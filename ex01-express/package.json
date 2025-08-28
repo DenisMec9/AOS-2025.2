@@ -1,10 +1,11 @@
 {
   "name": "ex01-express",
   "version": "1.0.0",
+  "type": "module",
   "description": "Tutorial de Node.JS + Express + PostgreSQL",
   "main": "index.js",
   "scripts": {
-    "start": " api/index.js"
+    "start": "node api/index.js"
   },
   "keywords": [
     "node",
@@ -14,11 +15,8 @@
   "author": "Denis Barbosa",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.28.3",
-    "@babel/node": "^7.28.0",
-    "@babel/preset-env": "^7.28.3",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "dotenv": "^17.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
